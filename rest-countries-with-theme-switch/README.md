@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0824b429-1ada-4998-8f96-dda784a757fe/deploy-status)](https://app.netlify.com/sites/rest-countries-with-theme-switch/deploys)
+
 # Frontend Mentor - REST Countries API with color theme switcher
 
 ![Design preview for the REST Countries API with color theme switcher coding challenge](./design/desktop-preview.jpg)
