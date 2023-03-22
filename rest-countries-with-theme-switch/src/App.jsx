@@ -158,7 +158,7 @@ function App() {
           <header className="dark:bg-[#2b3945] bg-white px-2 shadow-md md:px-16">
             <Header theme={theme} handleSwitch={handleSwitch} />
           </header>
-          <main className="min-h-screen py-8 px-2 md:px-16">
+          <section className="min-h-screen py-8 px-2 md:px-16">
             {searchedCountry && (
               <button
                 onClick={home}
@@ -344,7 +344,7 @@ function App() {
                 </div>
               </div>
             )}
-          </main>
+          </section>
         </div>
       </main>
       <footer className="dark:bg-gray-600 dark:text-slate-200 text-center">
