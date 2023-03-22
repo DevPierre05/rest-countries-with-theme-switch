@@ -158,7 +158,7 @@ function App() {
           <header className="dark:bg-[#2b3945] bg-white px-2 shadow-md md:px-16">
             <Header theme={theme} handleSwitch={handleSwitch} />
           </header>
-          <section className="min-h-screen py-8 px-2 md:px-16">
+          <div className="min-h-screen py-8 px-2 md:px-16">
             {searchedCountry && (
               <button
                 onClick={home}
@@ -186,8 +186,10 @@ function App() {
                     />
                   </form>
 
+                  <label htmlFor="region" className=""></label>
                   <select
                     className="dark:bg-[#2b3945] text-sm p-4 rounded-md w-2/5 md:w-1/3 shadow-md border-white outline-none"
+                    id="region"
                     name="region"
                     value={formData.region}
                     onChange={handleChange}
@@ -344,12 +346,29 @@ function App() {
                 </div>
               </div>
             )}
-          </section>
+          </div>
         </div>
       </main>
       <footer className="dark:bg-gray-600 dark:text-slate-200 text-center">
-        Challenge by <span><a className="underline"href="https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca">Frontend Mentor</a></span>, Coded by{" "}
-        <span><a className="underline" href="https://github.com/DevPierre05"target="_blank">Peter Osei</a></span>
+        Challenge by{" "}
+        <span>
+          <a
+            className="underline"
+            href="https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca"
+          >
+            Frontend Mentor
+          </a>
+        </span>
+        , Coded by{" "}
+        <span>
+          <a
+            className="underline"
+            href="https://github.com/DevPierre05"
+            target="_blank"
+          >
+            Peter Osei
+          </a>
+        </span>
       </footer>
     </>
   );
