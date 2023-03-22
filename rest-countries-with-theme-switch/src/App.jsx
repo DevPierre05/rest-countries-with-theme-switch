@@ -218,7 +218,7 @@ function App() {
                       <article
                         key={i}
                         onClick={() => handleCountryClick(item.id)}
-                        className="mt-12 w-64 dark:bg-[#2b3945] rounded-t-md rounded-b-md shadow-md overflow-x-hidden"
+                        className="mt-12 w-64 dark:bg-[#2b3945] rounded-t-md rounded-b-md shadow-md hover:scale-105 overflow-x-hidden"
                       >
                         <img
                           src={item.flag}
