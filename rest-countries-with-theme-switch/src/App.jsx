@@ -186,8 +186,8 @@ function App() {
                     />
                   </form>
 
-                  <label htmlFor="region" className=""></label>
                   <select
+                    aria-label="label for the select"
                     className="dark:bg-[#2b3945] text-sm p-4 rounded-md w-2/5 md:w-1/3 shadow-md border-white outline-none"
                     id="region"
                     name="region"
